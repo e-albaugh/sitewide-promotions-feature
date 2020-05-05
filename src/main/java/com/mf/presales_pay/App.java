@@ -1,4 +1,4 @@
-package com.mf.presales;
+package com.mf.presales_pay;
 
 /**
  * Hello world!

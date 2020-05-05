@@ -1,4 +1,4 @@
-package com.mf.presales;
+package com.mf.presales_pay;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
