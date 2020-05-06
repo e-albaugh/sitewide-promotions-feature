@@ -1,4 +1,4 @@
-package com.mf.presales_pay;
+package com.mf.presales_warehouse;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -7,13 +7,13 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class SeleniumRegressionTest extends TestCase {
+public class PaymentGatewaySmokeTest extends TestCase {
     /**
      * Create the test case
      *
      * @param testName name of the test case
      */
-    public SeleniumRegressionTest(String testName) {
+    public PaymentGatewaySmokeTest(String testName) {
         super(testName);
     }
 
@@ -21,7 +21,7 @@ public class SeleniumRegressionTest extends TestCase {
      * @return the suite of tests being tested
      */
     public static Test suite() {
-        return new TestSuite(SeleniumRegressionTest.class);
+        return new TestSuite(PaymentGatewaySmokeTest.class);
     }
 
 
@@ -29,51 +29,51 @@ public class SeleniumRegressionTest extends TestCase {
         assertTrue(true);
     }
 
-    public void testUserProfUpdates() {
+    public void testChangeGatewayLanguage() {
         assertTrue(true);
     }
 
-    public void testUserProfLogInOutt() {
+    public void testGatewayNonResponse() {
         assertTrue(true);
     }
 
-    public void testSpeakersOrder() {
+    public void testStoreCardDetails() {
         assertTrue(true);
     }
 
-    public void testSpeakersRemoveFromCartt() {
+    public void testPaymentMessageFormat() {
         assertTrue(true);
     }
 
-    public void testSpeakersInventory() {
+    public void testAuthorizationReceipt() {
         assertTrue(true);
     }
 
-    public void testSpeakersNav() {
+    public void testCurrencyFormat() {
         assertTrue(true);
     }
 
-    public void testTabletsOrder() {
+    public void testDesiredCardSelection() {
         assertTrue(true);
     }
 
-    public void testTabletsRemoveFromCart() {
+    public void testErrorMessageParse() {
         assertTrue(true);
     }
 
-    public void testTabletsFilterr() {
+    public void testDisplayProcessingWaitTime() {
         assertTrue(true);
     }
 
-    public void testSpeakersFilter() {
+    public void testRespectivePaymentOption() {
         assertTrue(true);
     }
 
-    public void testTabletsInventory() {
+    public void testBackendMatch() {
         assertTrue(true);
     }
 
-    public void testTabletsNav() {
+    public void testPopUpBlock() {
         assertTrue(true);
     }
 
