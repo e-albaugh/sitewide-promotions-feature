@@ -1,4 +1,4 @@
-package com.mf.presales_pay;
+package com.mf.sitewide_promotion;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
