@@ -1,4 +1,4 @@
-package com.mf.presales_pay;
+package com.mf.sitewide_promotion;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -7,13 +7,13 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class PaymentGatewaySmokeTest extends TestCase {
+public class SiteWidePromotionSmokeTest extends TestCase {
     /**
      * Create the test case
      *
      * @param testName name of the test case
      */
-    public PaymentGatewaySmokeTest(String testName) {
+    public SiteWidePromotionSmokeTest(String testName) {
         super(testName);
     }
 
@@ -21,59 +21,59 @@ public class PaymentGatewaySmokeTest extends TestCase {
      * @return the suite of tests being tested
      */
     public static Test suite() {
-        return new TestSuite(PaymentGatewaySmokeTest.class);
+        return new TestSuite(SiteWidePromotionSmokeTest.class);
     }
 
 
-    public void testUserProfCheckout() {
+    public void testPromotionHomeBannerPositive() {
         assertTrue(true);
     }
 
-    public void testChangeGatewayLanguage() {
+    public void testPromotionHomeBannerNegative() {
         assertTrue(true);
     }
 
-    public void testGatewayNonResponse() {
+    public void testPromotionSearchAutoFill() {
         assertTrue(true);
     }
 
-    public void testStoreCardDetails() {
+    public void testPromotionOnAllSearch() {
         assertTrue(true);
     }
 
-    public void testPaymentMessageFormat() {
+    public void testPromotionItemsPositive() {
         assertTrue(true);
     }
 
-    public void testAuthorizationReceipt() {
+    public void testPromotionItemsNegative() {
         assertTrue(true);
     }
 
-    public void testCurrencyFormat() {
+    public void testPromotionExpiry() {
         assertTrue(true);
     }
 
-    public void testDesiredCardSelection() {
+    public void testMyLocationPromotionQualifier() {
         assertTrue(true);
     }
 
-    public void testErrorMessageParse() {
+    public void testPromotionNotAvailableInMyArea() {
         assertTrue(true);
     }
 
-    public void testDisplayProcessingWaitTime() {
+    public void testDisplayPromotionItems() {
         assertTrue(true);
     }
 
-    public void testRespectivePaymentOption() {
+    public void testPromotionItemBackOrder() {
         assertTrue(true);
     }
 
-    public void testBackendMatch() {
+    public void testBackendValidationPromotion() {
         assertTrue(true);
     }
 
-    public void testPopUpBlock() {
+    public void testPromotionItemCancellation() {
         assertTrue(true);
     }
 
