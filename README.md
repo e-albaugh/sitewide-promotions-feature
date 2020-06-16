@@ -1,1 +1,1 @@
-# demo-pay
+# sitewide-promotion
