@@ -1,4 +1,4 @@
-package com.mf.sitewide_promotion;
+package com.mf.sitewide_promotions;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
