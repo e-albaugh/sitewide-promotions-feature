@@ -54,7 +54,7 @@ public class SiteWidePromotionSmokeTest extends TestCase {
     }
 
     public void testMyLocationPromotionQualifier() {
-        assertTrue(true);
+        assertTrue("catastrophic failure...idk if we will be able to fix this. tell my family i love them", false);
     }
 
     public void testPromotionNotAvailableInMyArea() {
